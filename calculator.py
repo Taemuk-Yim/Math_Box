@@ -11,10 +11,16 @@ def multiply(a, b):
 def divide_new(a, b):
     return a / b
 
-<<<<<<< HEAD
 def getMedian(a, b):
     return (a+b)/2
-=======
+
 def getRemainder(a, b):
     return a // b
->>>>>>> 581556e (Add getRemainder function)
+
+def getAbs(num):
+    if num>=0:
+        return num
+    else:
+        return -num
+
+        
